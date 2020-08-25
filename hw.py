@@ -4,7 +4,7 @@ Created on Thu Aug 20 21:26:57 2020
 
 @author: Hank Lai
 """
-
+'''
 
 x = input("c or f")  #c=1 f=2
 t = eval(input("溫度= "))
@@ -103,6 +103,31 @@ print(str.ljust(50, '0'))
 str = "this is string example....wow!!!"                 #填滿字串
 print(str.zfill(40))
 print(str.zfill(50))
+'''
+
+
+e = int(input("數字: "))
+num_list = []
+for x in range(1,int(e + 1)):
+    if x % 2 == 0:
+        num_list.append(x)
+        x += 1
+    else:
+        x += 1
+print(num_list)
+
+w = int(input("數字: "))
+num_list2 = []
+y = 1
+while y <= int(w):
+    if y %2 == 0:
+        num_list2.append(y)
+        y += 1
+    else:
+        y += 1
+print(num_list2)
+
+
     
     
     
@@ -128,9 +153,83 @@ print(str.zfill(50))
     
     
     
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
     
